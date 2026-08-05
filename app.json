@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "مدير الملفات - Alhassani",
+    "slug": "alhassani-file-manager",
+    "version": "1.0.0",
+    "sdkVersion": "56.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "platforms": ["android","ios"],
+    "extra": {}
+  }
+}
