@@ -1,12 +1,46 @@
 {
   "expo": {
-    "name": "مدير الملفات - Alhassani",
-    "slug": "alhassani-file-manager",
-    "version": "1.0.0",
-    "sdkVersion": "56.0.0",
+    "name": "وارد 3.0",
+    "slug": "warid-transaction-manager",
+    "version": "3.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "platforms": ["android","ios"],
-    "extra": {}
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3498db"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.warid.transactionmanager"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3498db"
+      },
+      "package": "com.warid.transactionmanager",
+      "permissions": [
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT",
+        "POST_NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-local-authentication",
+      "expo-notifications"
+    ],
+    "locales": {
+      "ar": "./src/i18n/locales/ar.json"
+    }
   }
 }
